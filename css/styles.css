@@ -975,7 +975,8 @@ img {
   background-color: transparent;
 
   transition: background-color var(--duration) var(--cubic),
-    border-color var(--duration) var(--cubic);
+    border-color var(--duration) var(--cubic),
+    box-shadow var(--duration) var(--cubic);
 }
 
 .agree-checkbox:focus + .custom-agree-checkbox {
